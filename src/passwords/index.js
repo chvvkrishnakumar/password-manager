@@ -27,7 +27,7 @@ const Passwords = props => {
         </p>
       </div>
       <button
-        testid="delete"
+        data-testid="delete"
         onClick={onDelete}
         className="delete"
         type="button"
